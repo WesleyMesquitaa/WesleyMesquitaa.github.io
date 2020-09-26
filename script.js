@@ -18,12 +18,10 @@ let documentos = {
     display : document.querySelector('section#display') 
 }
 
-
 let dados = {
     valor1: "0",
     valor2: "0",
     metodo: undefined,
-    historico: [ ],
     resultado: undefined
 }
 
@@ -52,7 +50,6 @@ function metodo(operadorAritimetico) {
     dados.metodo = operadorAritimetico
     return documentos.display.innerHTML += `${operadorAritimetico}`
 }
-
 
 function limparVariaveis() {
     dados.metodo = undefined
@@ -128,4 +125,3 @@ function resultado() {
     calcular
     documentos.display.innerHTML = `${dados.resultado}`
 }
-
