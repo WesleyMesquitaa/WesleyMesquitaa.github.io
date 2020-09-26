@@ -1,21 +1,21 @@
 let documentos = {
-    botaoAdicao : document.querySelector('input#adicao'),
-    botaoSubtracao : document.querySelector('input#subtracao'),
-    botaoMultiplicacao : document.querySelector('input#multiplicacao'),
-    botaoDivisao : document.querySelector('input#divisao'),
-    botaoLimpar : document.querySelector('input#limpar'),
-    botaoResultado : document.querySelector('input#resultado'),
-    botao9 : document.querySelector('input#number9'),
-    botao8 : document.querySelector('input#number8'),
-    botao7 : document.querySelector('input#number7'),
-    botao6 : document.querySelector('input#number6'),
-    botao5 : document.querySelector('input#number5'),
-    botao4 : document.querySelector('input#number4'),
-    botao3 : document.querySelector('input#number3'),
-    botao2 : document.querySelector('input#number2'),
-    botao1 : document.querySelector('input#number1'),
-    botao0 : document.querySelector('input#number0'),
-    display : document.querySelector('section#display') 
+    botaoAdicao: document.querySelector('input#adicao'),
+    botaoSubtracao: document.querySelector('input#subtracao'),
+    botaoMultiplicacao: document.querySelector('input#multiplicacao'),
+    botaoDivisao: document.querySelector('input#divisao'),
+    botaoLimpar: document.querySelector('input#limpar'),
+    botaoResultado: document.querySelector('input#resultado'),
+    botao9: document.querySelector('input#number9'),
+    botao8: document.querySelector('input#number8'),
+    botao7: document.querySelector('input#number7'),
+    botao6: document.querySelector('input#number6'),
+    botao5: document.querySelector('input#number5'),
+    botao4: document.querySelector('input#number4'),
+    botao3: document.querySelector('input#number3'),
+    botao2: document.querySelector('input#number2'),
+    botao1: document.querySelector('input#number1'),
+    botao0: document.querySelector('input#number0'),
+    display: document.querySelector('section#display') 
 }
 
 let dados = {
